@@ -18,7 +18,7 @@ sudo vim /etc/crontab
 ```
 [minute] [hour] [day_of_month] [month] [day_of_week] [user] [command_to_run]
 ```
-sudo nano /etc/crontab
+sudo vim /etc/crontab
 ```
 50 19 * * 3 root /usr/bin/apt update -q -y >> /var/log/apt/automaticupdates.log
 0 20 * * 3 root /usr/bin/apt upgrade -q -y >> /var/log/apt/automaticupdates.log
